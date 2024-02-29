@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\learning\\unrealengine\\church_island\\church_island\\church_island\\intermediate\\build\\win64\\unrealeditor\\inc\\church_island\\uht\\church_islandcharacter.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\learning\\unrealengine\\church_island\\church_island\\church_island\\intermediate\\build\\win64\\x64\\church_islandeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "f:\\learning\\unrealengine\\church_island\\church_island\\church_island\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\church_island\\definitions.church_island.h",
+            "f:\\learning\\unrealengine\\church_island\\church_island\\church_island\\source\\church_island\\church_islandcharacter.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "d:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "d:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "d:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "d:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "f:\\learning\\unrealengine\\church_island\\church_island\\church_island\\intermediate\\build\\win64\\unrealeditor\\inc\\church_island\\uht\\church_islandcharacter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

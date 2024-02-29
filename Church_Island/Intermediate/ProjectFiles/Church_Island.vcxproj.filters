@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Church_Island.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Church_Island.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Church_IslandEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Church_Island">
+      <UniqueIdentifier>{158B7473-91DC-3C1D-B96D-3BEFE8BB95A1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Church_Island\Church_Island.Build.cs">
+      <Filter>Source\Church_Island</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Church_Island\Church_Island.cpp">
+      <Filter>Source\Church_Island</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Church_Island\Church_Island.h">
+      <Filter>Source\Church_Island</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Church_Island\Church_IslandCharacter.cpp">
+      <Filter>Source\Church_Island</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Church_Island\Church_IslandCharacter.h">
+      <Filter>Source\Church_Island</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Church_Island\Church_IslandGameMode.cpp">
+      <Filter>Source\Church_Island</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Church_Island\Church_IslandGameMode.h">
+      <Filter>Source\Church_Island</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Church_Island\Church_Island_GameState.cpp">
+      <Filter>Source\Church_Island</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Church_Island\Church_Island_GameState.h">
+      <Filter>Source\Church_Island</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Church_Island\Church_Island_PlayerController.cpp">
+      <Filter>Source\Church_Island</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Church_Island\Church_Island_PlayerController.h">
+      <Filter>Source\Church_Island</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Church_Island\Church_Island_PlayerState.cpp">
+      <Filter>Source\Church_Island</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Church_Island\Church_Island_PlayerState.h">
+      <Filter>Source\Church_Island</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

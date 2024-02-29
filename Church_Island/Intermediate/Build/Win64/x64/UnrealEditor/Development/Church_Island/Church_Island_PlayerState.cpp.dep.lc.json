@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\learning\\unrealengine\\church_island\\church_island\\church_island\\source\\church_island\\church_island_playerstate.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\learning\\unrealengine\\church_island\\church_island\\church_island\\intermediate\\build\\win64\\x64\\church_islandeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "f:\\learning\\unrealengine\\church_island\\church_island\\church_island\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\church_island\\definitions.church_island.h",
+            "f:\\learning\\unrealengine\\church_island\\church_island\\church_island\\source\\church_island\\church_island_playerstate.h",
+            "d:\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\playerstate.h",
+            "d:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\playerstate.generated.h",
+            "f:\\learning\\unrealengine\\church_island\\church_island\\church_island\\intermediate\\build\\win64\\unrealeditor\\inc\\church_island\\uht\\church_island_playerstate.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

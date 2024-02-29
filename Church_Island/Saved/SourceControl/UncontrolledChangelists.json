@@ -1,0 +1,17 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"F:/Learning/UnrealEngine/Church_Island/Church_Island/Church_Island/Content/StarterContent/Audio/Collapse01.uasset",
+				"F:/Learning/UnrealEngine/Church_Island/Church_Island/Church_Island/Content/BP_Church_Island_GameMOD.uasset",
+				"F:/Learning/UnrealEngine/Church_Island/Church_Island/Church_Island/Content/Blueprints/BP_Church_Island_GameMOD.uasset",
+				"F:/Learning/UnrealEngine/Church_Island/Church_Island/Church_Island/Content/Blueprints/BP_Church_Island_GameState.uasset",
+				"F:/Learning/UnrealEngine/Church_Island/Church_Island/Church_Island/Content/Blueprints/BP_Church_Island_PlayerController.uasset",
+				"F:/Learning/UnrealEngine/Church_Island/Church_Island/Church_Island/Content/ThirdPerson/Maps/ThirdPersonMap.umap"
+			]
+		}
+	]
+}
