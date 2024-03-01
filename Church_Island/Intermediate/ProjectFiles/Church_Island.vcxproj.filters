@@ -72,5 +72,11 @@
     <ClInclude Include="..\..\Source\Church_Island\Church_Island_PlayerState.h">
       <Filter>Source\Church_Island</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Church_Island\MyPlayerController.cpp">
+      <Filter>Source\Church_Island</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Church_Island\MyPlayerController.h">
+      <Filter>Source\Church_Island</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
