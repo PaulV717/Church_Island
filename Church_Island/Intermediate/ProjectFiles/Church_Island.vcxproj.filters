@@ -33,6 +33,12 @@
     <Filter Include="Source\Church_Island">
       <UniqueIdentifier>{158B7473-91DC-3C1D-B96D-3BEFE8BB95A1}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Church_Island\ChurchPlayerState.cpp">
+      <Filter>Source\Church_Island</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Church_Island\ChurchPlayerState.h">
+      <Filter>Source\Church_Island</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Church_Island\Church_Island.Build.cs">
       <Filter>Source\Church_Island</Filter>
     </None>
@@ -52,30 +58,6 @@
       <Filter>Source\Church_Island</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Church_Island\Church_IslandGameMode.h">
-      <Filter>Source\Church_Island</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Church_Island\Church_Island_GameState.cpp">
-      <Filter>Source\Church_Island</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Church_Island\Church_Island_GameState.h">
-      <Filter>Source\Church_Island</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Church_Island\Church_Island_PlayerController.cpp">
-      <Filter>Source\Church_Island</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Church_Island\Church_Island_PlayerController.h">
-      <Filter>Source\Church_Island</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Church_Island\Church_Island_PlayerState.cpp">
-      <Filter>Source\Church_Island</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Church_Island\Church_Island_PlayerState.h">
-      <Filter>Source\Church_Island</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Church_Island\MyPlayerController.cpp">
-      <Filter>Source\Church_Island</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Church_Island\MyPlayerController.h">
       <Filter>Source\Church_Island</Filter>
     </ClInclude>
   </ItemGroup>
