@@ -16,6 +16,7 @@ void EmptyLinkFunctionForGeneratedCodeChurch_IslandCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputAction_NoRegister();
 	ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputMappingContext_NoRegister();
+	GAMEPLAYABILITIES_API UClass* Z_Construct_UClass_UAbilitySystemInterface_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_Church_Island();
 // End Cross Module References
 	void AChurch_IslandCharacter::StaticRegisterNativesAChurch_IslandCharacter()
@@ -57,6 +58,7 @@ void EmptyLinkFunctionForGeneratedCodeChurch_IslandCharacter() {}
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_LookAction;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const UECodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
@@ -166,6 +168,10 @@ void EmptyLinkFunctionForGeneratedCodeChurch_IslandCharacter() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChurch_IslandCharacter_Statics::NewProp_MoveAction,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AChurch_IslandCharacter_Statics::NewProp_LookAction,
 	};
+		const UECodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_AChurch_IslandCharacter_Statics::InterfaceParams[] = {
+			{ Z_Construct_UClass_UAbilitySystemInterface_NoRegister, (int32)VTABLE_OFFSET(AChurch_IslandCharacter, IAbilitySystemInterface), false },  // 3195502011
+		};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AChurch_IslandCharacter_Statics::InterfaceParams) < 64);
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AChurch_IslandCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AChurch_IslandCharacter>::IsAbstract,
 	};
@@ -176,11 +182,11 @@ void EmptyLinkFunctionForGeneratedCodeChurch_IslandCharacter() {}
 		DependentSingletons,
 		nullptr,
 		Z_Construct_UClass_AChurch_IslandCharacter_Statics::PropPointers,
-		nullptr,
+		InterfaceParams,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		UE_ARRAY_COUNT(Z_Construct_UClass_AChurch_IslandCharacter_Statics::PropPointers),
-		0,
+		UE_ARRAY_COUNT(InterfaceParams),
 		0x008000A4u,
 		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AChurch_IslandCharacter_Statics::Class_MetaDataParams), Z_Construct_UClass_AChurch_IslandCharacter_Statics::Class_MetaDataParams)
 	};
@@ -204,9 +210,9 @@ void EmptyLinkFunctionForGeneratedCodeChurch_IslandCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Church_Island_Source_Church_Island_Church_IslandCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AChurch_IslandCharacter, AChurch_IslandCharacter::StaticClass, TEXT("AChurch_IslandCharacter"), &Z_Registration_Info_UClass_AChurch_IslandCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AChurch_IslandCharacter), 2429572273U) },
+		{ Z_Construct_UClass_AChurch_IslandCharacter, AChurch_IslandCharacter::StaticClass, TEXT("AChurch_IslandCharacter"), &Z_Registration_Info_UClass_AChurch_IslandCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AChurch_IslandCharacter), 2135472566U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Church_Island_Source_Church_Island_Church_IslandCharacter_h_1553614495(TEXT("/Script/Church_Island"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Church_Island_Source_Church_Island_Church_IslandCharacter_h_2005378722(TEXT("/Script/Church_Island"),
 		Z_CompiledInDeferFile_FID_Church_Island_Source_Church_Island_Church_IslandCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Church_Island_Source_Church_Island_Church_IslandCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

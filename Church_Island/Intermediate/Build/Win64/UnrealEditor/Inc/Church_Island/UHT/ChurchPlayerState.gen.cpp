@@ -85,7 +85,7 @@ void EmptyLinkFunctionForGeneratedCodeChurchPlayerState() {}
 		0,
 		UE_ARRAY_COUNT(Z_Construct_UClass_AChurchPlayerState_Statics::PropPointers),
 		UE_ARRAY_COUNT(InterfaceParams),
-		0x009002A4u,
+		0x008002A4u,
 		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AChurchPlayerState_Statics::Class_MetaDataParams), Z_Construct_UClass_AChurchPlayerState_Statics::Class_MetaDataParams)
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AChurchPlayerState_Statics::PropPointers) < 2048);
@@ -108,9 +108,9 @@ void EmptyLinkFunctionForGeneratedCodeChurchPlayerState() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Church_Island_Source_Church_Island_ChurchPlayerState_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AChurchPlayerState, AChurchPlayerState::StaticClass, TEXT("AChurchPlayerState"), &Z_Registration_Info_UClass_AChurchPlayerState, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AChurchPlayerState), 2572454657U) },
+		{ Z_Construct_UClass_AChurchPlayerState, AChurchPlayerState::StaticClass, TEXT("AChurchPlayerState"), &Z_Registration_Info_UClass_AChurchPlayerState, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AChurchPlayerState), 1570518659U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Church_Island_Source_Church_Island_ChurchPlayerState_h_103728880(TEXT("/Script/Church_Island"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Church_Island_Source_Church_Island_ChurchPlayerState_h_2147300143(TEXT("/Script/Church_Island"),
 		Z_CompiledInDeferFile_FID_Church_Island_Source_Church_Island_ChurchPlayerState_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Church_Island_Source_Church_Island_ChurchPlayerState_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

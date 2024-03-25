@@ -13,7 +13,7 @@
  * 
  */
 UCLASS()
-class MYPROJECT_API AChurchPlayerState : public APlayerState, public IAbilitySystemInterface
+class AChurchPlayerState : public APlayerState, public IAbilitySystemInterface
 {
     GENERATED_BODY()
 

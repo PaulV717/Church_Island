@@ -1,6 +1,8 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "Church_IslandCharacter.h"
+#include "AbilitySystemComponent.h"
+#include "ChurchPlayerState.h"
 #include "Engine/LocalPlayer.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
@@ -15,6 +17,35 @@ DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
 //////////////////////////////////////////////////////////////////////////
 // AChurch_IslandCharacter
+
+
+UAbilitySystemComponent* AChurch_IslandCharacter::GetAbilitySystemComponent() const
+{
+	if (const AChurchPlayerState* YourPlayerState = GetPlayerState<AChurchPlayerState>())
+	{
+		return YourPlayerState->GetAbilitySystemComponent();
+	}
+	return nullptr;
+}
+
+void AChurch_IslandCharacter::PossessedBy(AController* NewController)
+{
+	Super::PossessedBy(NewController);
+	if (const AChurchPlayerState* YourPlayerState = GetPlayerState<AChurchPlayerState>())
+	{
+		YourPlayerState->GetAbilitySystemComponent()->SetAvatarActor(this);
+	}
+}
+
+void AChurch_IslandCharacter::UnPossessed()
+{
+	Super::UnPossessed();
+	if (const AChurchPlayerState* YourPlayerState = GetPlayerState<AChurchPlayerState>())
+	{
+		YourPlayerState->GetAbilitySystemComponent()->SetAvatarActor(nullptr);
+	}
+}
+
 
 AChurch_IslandCharacter::AChurch_IslandCharacter()
 {
@@ -53,6 +84,7 @@ AChurch_IslandCharacter::AChurch_IslandCharacter()
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
 }
+
 
 void AChurch_IslandCharacter::BeginPlay()
 {

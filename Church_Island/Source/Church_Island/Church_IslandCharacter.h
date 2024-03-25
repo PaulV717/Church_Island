@@ -5,7 +5,9 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Logging/LogMacros.h"
+#include "AbilitySystemInterface.h"
 #include "Church_IslandCharacter.generated.h"
+
 
 class USpringArmComponent;
 class UCameraComponent;
@@ -13,10 +15,11 @@ class UInputMappingContext;
 class UInputAction;
 struct FInputActionValue;
 
+
 DECLARE_LOG_CATEGORY_EXTERN(LogTemplateCharacter, Log, All);
 
 UCLASS(config=Game)
-class AChurch_IslandCharacter : public ACharacter
+class AChurch_IslandCharacter : public ACharacter , public IAbilitySystemInterface
 {
 	GENERATED_BODY()
 
@@ -46,6 +49,11 @@ class AChurch_IslandCharacter : public ACharacter
 
 public:
 	AChurch_IslandCharacter();
+
+	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
+	virtual void PossessedBy(AController* NewController) override;
+	virtual void UnPossessed() override;
+
 	
 
 protected:
